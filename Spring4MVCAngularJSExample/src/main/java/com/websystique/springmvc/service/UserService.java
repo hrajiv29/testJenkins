@@ -6,6 +6,10 @@ import com.websystique.springmvc.model.User;
 
 
 
+/**
+ * @author Rajiv
+ *
+ */
 public interface UserService {
 	
 	User findById(long id);
