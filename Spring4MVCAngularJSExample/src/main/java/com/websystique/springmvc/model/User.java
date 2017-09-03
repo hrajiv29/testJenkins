@@ -14,6 +14,12 @@ public class User {
 		id=0;
 	}
 	
+	/**
+	 * @param id
+	 * @param username
+	 * @param address
+	 * @param email
+	 */
 	public User(long id, String username, String address, String email){
 		this.id = id;
 		this.username = username;
